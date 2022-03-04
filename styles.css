@@ -1,0 +1,9 @@
+ul {
+    display: inline;
+    text-decoration: none;
+    list-style: none
+}
+
+.imageone {
+    width: 400px;
+}
