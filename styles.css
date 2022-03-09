@@ -28,7 +28,7 @@ header, main, footer{
     height: 100px;
 }
 
-ul li {
+.navbar ul li {
     display: inline;
     text-decoration: none;
     list-style: none;
@@ -125,4 +125,13 @@ img {
 footer{
     display: flex;
     justify-content: space-between;
+    background: grey;
+}
+
+footer ul li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-top: 5rem;
 }
