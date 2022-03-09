@@ -36,6 +36,11 @@ header, main, footer{
     text-decoration: none;
     list-style: none;
     text-align: center;
+
+}
+
+.navbar {
+      margin-top: 1.5rem;
 }
 
 li{
