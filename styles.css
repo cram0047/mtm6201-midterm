@@ -7,6 +7,9 @@ header, main, footer{
     margin: 0 auto;
 }
 
+/*-------------------------- HEADER/NAV STUFF -----------------------------*/
+/* large media query*/
+
 /*div{
     border: solid red;
     margin: 5px; 
@@ -72,8 +75,10 @@ li{
     top: 50%;
     left: 40%;
     color: #000;
-} 
+}
 
+
+/*------------------------------- MAIN CONTENT -----------------------------------*/
 .maincontainer{
     margin: 3rem;
 }
@@ -123,6 +128,9 @@ img {
     margin: 1rem;
 }
 
+
+/*------------------ FOOTER STUFF -----------------------*/
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -136,3 +144,9 @@ footer{
     text-align: center;
     margin-top: 1rem;
 }
+
+
+
+/* medium media query*/
+
+/* small media query*/
