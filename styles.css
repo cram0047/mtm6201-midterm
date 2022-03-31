@@ -59,22 +59,23 @@ header, main, footer{
     margin: 0 auto;
 }
 
+/*-------------------------------------------- MEDIA SCREEN Mobile------------------------------------------*/
+@media screen and (min-width: 380px) and (max-width: 479px){
+}
 
-/*-------------------------------------------- MEDIA SCREEN ------------------------------------------*/
-@media screen and (min-width: 480px) and (max-width: 769px){
+
+/*-------------------------------------------- MEDIA SCREEN  Tablet------------------------------------------*/
+@media screen and (min-width: 500px){
+        
 }
 
 
 /*----------------------------------------------------- MEDIA QUERY DESKTOP -------------------------------------------*/
 
-@media screen and (min-width: 770px) and (max-width: 1200px){
+@media screen and (min-width: 920px){
 /*-------------------------- HEADER/NAV STUFF -----------------------------*/
     /* large media query*/
 
-    /*div{
-        border: solid red;
-        margin: 5px; 
-    }*/
 
     .logoimage {
         display:block;
@@ -88,6 +89,7 @@ header, main, footer{
 
     .navbar{
         flex-grow: 5;
+        display: flex;
     }
 
     .imageone{
@@ -104,11 +106,11 @@ header, main, footer{
     }
 
     .navbar {
-        margin-top: 1.5rem;
+        margin-top: 3rem;
     }
 
     li{
-        margin-left: 8rem;
+        margin-left: 5rem;
         width: 100%;
     }
 
@@ -136,6 +138,7 @@ header, main, footer{
         top: 50%;
         left: 40%;
         color: #000;
+        padding: 1rem;
     }
 
 
