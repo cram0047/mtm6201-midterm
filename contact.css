@@ -54,14 +54,84 @@ body{
     margin: 0 auto;
 }
 
-/*-------------------------------------------- MEDIA SCREEN ------------------------------------------*/
-@media screen and (min-width: 480px) and (max-width: 769px){
+/*-------------------------------------------- MEDIA SCREEN MOBILE ------------------------------------------*/
+@media screen and (min-width: 380px){
+    /*--------------------------- MAIN --------------------------------------*/
+
+     /*------------FORM STUFF------------*/
+     .formname{
+        margin: 1em;
+    }
+
+    .formname input{
+        width: 100%;
+    }
+    
+
+    .formemail{
+        margin: 1em;
+    }
+
+    .formemail input{
+        width: 100%;
+    }
+    
+    .formmessage{
+        margin: 1em;
+    }
+    textarea{
+        width: 100%;
+        height: 5rem
+    }
+
+    form{
+        border: black solid;
+        margin: 1em;
+        margin-top: 2em
+    }
+}
+
+/*-------------------------------------------- MEDIA SCREEN TABLET------------------------------------------*/
+@media screen and (min-width: 500px){
+    /*--------------------------- MAIN --------------------------------------*/
+
+    /*------------FORM STUFF------------*/
+    .formname{
+        margin: 1em;
+    }
+
+    .formname input{
+        width: 100%;
+    }
+    
+
+    .formemail{
+        margin: 1em;
+    }
+
+    .formemail input{
+        width: 100%;
+    }
+    
+    .formmessage{
+        margin: 1em;
+    }
+    textarea{
+        width: 100%;
+        height: 5rem
+    }
+
+    form{
+        border: black solid;
+        margin: 1em;
+        margin-top: 2em
+    }
 }
 
 
 /*----------------------------------------------------- MEDIA QUERY DESKTOP -------------------------------------------*/
 
-@media screen and (min-width: 770px) and (max-width: 1200px){
+@media screen and (min-width: 920px){
     .logoimage {
         display:block;
         border: 0;
@@ -106,8 +176,50 @@ body{
         width: 300px;
     }
 
+    /*--------------------------- MAIN --------------------------------------*/
+
+    p{
+        margin: 1em;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        margin: 1em;
+    }
 
 
+
+    /*------------FORM STUFF------------*/
+    .formname{
+        margin: 1em;
+    }
+
+    .formname input{
+        width: 100%;
+    }
+    
+
+    .formemail{
+        margin: 1em;
+    }
+
+    .formemail input{
+        width: 100%;
+    }
+    
+    .formmessage{
+        margin: 1em;
+    }
+    textarea{
+        width: 100%;
+        height: 5rem
+    }
+
+    form{
+        border: black solid;
+        margin: 1em;
+        margin-top: 2em
+    }
 
     /*--------------------------- FOOTER ---------------------*/
     footer{
