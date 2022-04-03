@@ -56,8 +56,83 @@ body{
 
 /*-------------------------------------------- MEDIA SCREEN MOBILE ------------------------------------------*/
 @media screen and (min-width: 380px){
-    /*--------------------------- MAIN --------------------------------------*/
 
+    .imageone{
+        width: 80%;
+    }
+
+    
+    .headercontainer {
+        display: block;
+    }
+
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+    }
+
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+    .dropdown {
+        margin-top: 1rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 1rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
+        text-align: center;
+        font-size: 1rem;
+        width: 6rem;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropdown-button {
+        background: darkgrey;
+      }
+
+
+
+    /*--------------------------- MAIN --------------------------------------*/
+    p, h2{
+        margin: 1rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+    h2{
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
      /*------------FORM STUFF------------*/
      .formname{
         margin: 1em;
@@ -81,7 +156,10 @@ body{
     }
     textarea{
         width: 100%;
-        height: 5rem
+        height: 5rem;
+        margin-bottom: 2rem;
+        
+
     }
 
     form{
@@ -89,10 +167,89 @@ body{
         margin: 1em;
         margin-top: 2em
     }
+
+    /*--------------------------- FOOTER ---------------------*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background: grey;
+    }
+
+    .bottomnav {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        margin-top: 1rem;
+    }
 }
 
 /*-------------------------------------------- MEDIA SCREEN TABLET------------------------------------------*/
 @media screen and (min-width: 500px){
+    
+    .imageone{
+        width: 80%;
+    }
+
+    .headercontainer {
+        display: block;
+    }
+
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+    }
+
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+
+     .dropdown {
+        margin-top: 3rem;
+
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 1rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
+        width: 7rem;
+
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropdown-button {
+        background: darkgrey;
+      }
+
+    
     /*--------------------------- MAIN --------------------------------------*/
 
     /*------------FORM STUFF------------*/
@@ -118,13 +275,39 @@ body{
     }
     textarea{
         width: 100%;
-        height: 5rem
+        height: 5rem;
+        margin-bottom: 2rem;
     }
 
     form{
         border: black solid;
         margin: 1em;
-        margin-top: 2em
+        margin-top: 2em;
+        margin-bottom: 2rem;
+    }
+
+    p, h2{
+        margin-bottom: 1rem;
+    }
+
+    h2{
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    /*--------------------------- FOOTER ---------------------*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background: grey;
+    }
+
+    .bottomnav {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        margin-top: 1rem;
     }
 }
 
@@ -132,6 +315,16 @@ body{
 /*----------------------------------------------------- MEDIA QUERY DESKTOP -------------------------------------------*/
 
 @media screen and (min-width: 920px){
+    
+    .imageone{
+        width: 80%;
+    }
+
+    
+    .headercontainer {
+        display: block;
+    }
+
     .logoimage {
         display:block;
         border: 0;
@@ -143,38 +336,49 @@ body{
         width: 90%;
     }
 
-    .navbar{
-        flex-grow: 5;
-    }
+    .dropdown {
+        margin-top: 5rem;
+        position: relative;
+        display: inline-block;
+      }
 
-    .imageone{
-        width: 400px;
-        height: 100px;
-    }
-
-    .navbar ul li {
-        display: inline;
-        text-decoration: none;
-        list-style: none;
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 2rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
         text-align: center;
-    }
-
-    .navbar {
-        margin-top: 1.5rem;
-    }
-
-    li{
-        margin-left: 8rem;
-        width: 100%;
-    }
-
-    .headercontainer {
+        width: 8rem;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
         display: block;
-    }
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropdown-button {
+        background: darkgrey;
+      }
 
-    img {
-        width: 300px;
-    }
+
+
 
     /*--------------------------- MAIN --------------------------------------*/
 
@@ -184,7 +388,7 @@ body{
 
     h2{
         font-size: 1.5rem;
-        margin: 1em;
+        margin-bottom: 1em;
     }
 
 
