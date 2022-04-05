@@ -58,18 +58,15 @@ body{
 }
 /*-------------------------------------------- MEDIA SCREEN ------------------------------------------*/
 @media screen and (min-width: 380px){
-}
-/*-------------------------------------------- MEDIA SCREEN ------------------------------------------*/
-@media screen and (min-width: 500px){
-}
+    .imageone{
+        width: 80%;
+    }
 
+    
+    .headercontainer {
+        display: block;
+    }
 
-/*----------------------------------------------------- MEDIA QUERY DESKTOP -------------------------------------------*/
-
-@media screen and (min-width: 920px){
-
-    /*-------------------------- HEADER/NAV STUFF -----------------------------*/
-    /* large media query*/
     .logoimage {
         display:block;
         border: 0;
@@ -81,38 +78,173 @@ body{
         width: 90%;
     }
 
-    .navbar{
-        flex-grow: 5;
-    }
+    .dropdown {
+        margin-top: 1rem;
+        position: relative;
+        display: inline-block;
+      }
 
-    .imageone{
-        width: 400px;
-        height: 100px;
-    }
-
-    .navbar ul li {
-        display: inline;
-        text-decoration: none;
-        list-style: none;
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 1rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
         text-align: center;
-    }
-
-    .navbar {
-        margin-top: 1.5rem;
-    }
-
-    li{
-        margin-left: 8rem;
-        width: 100%;
+        font-size: 1rem;
+        width: 6rem;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+}
+/*-------------------------------------------- MEDIA SCREEN ------------------------------------------*/
+@media screen and (min-width: 500px){
+    .imageone{
+        width: 80%;
     }
 
     .headercontainer {
         display: block;
     }
 
-    img {
-        width: 300px;
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
     }
+
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+
+     .dropdown {
+        margin-top: 3rem;
+
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 1rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
+        width: 7rem;
+
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      
+}
+
+
+/*----------------------------------------------------- MEDIA QUERY DESKTOP -------------------------------------------*/
+
+@media screen and (min-width: 920px){
+
+    /*-------------------------- HEADER/NAV STUFF -----------------------------*/
+    /* large media query*/
+    .imageone{
+        width: 80%;
+    }
+
+    
+    .headercontainer {
+        display: block;
+    }
+
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+    }
+
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+    .dropdown {
+        margin-top: 5rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-button {
+        background: grey;
+        color: white;
+        padding: 2rem;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: solid grey;
+        text-align: center;
+        width: 8rem;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+      }
+   
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+    
 
     /*------------------------------- MAIN CONTENT -----------------------------------*/
     .aboutcontent{
