@@ -58,59 +58,47 @@ body{
 }
 /*-------------------------------------------- MEDIA SCREEN Mobile------------------------------------------*/
 @media screen and (min-width: 380px){
-    .imageone{
-        width: 80%;
-    }
-
     .logoimage {
         display:block;
         border: 0;
         margin: 0;
     }
-
     .totalnav{
         display: flex;
         width: 90%;
     }
 
-    .dropdown {
-        margin-top: 1rem;
-        position: relative;
-        display: inline-block;
-      }
+    .navbar{
+        flex-grow: 5;
+        display: flex;
+    }
 
-      .dropdown-button {
-        background: grey;
-        color: white;
-        padding: 1rem;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        width: 6.3rem;
-      }
-      
-     
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        border: solid grey;
-        text-align: center;
-        font-size: 1rem;
-        width: 6rem;
-      }
-      
-      .dropdown-content a {
-        color: black;
+    .imageone{
+        width: 400px;
+        height: 100px;
+    }
+
+    .navbar ul li {
+        display: inline;
         text-decoration: none;
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .headercontainer {
         display: block;
-        padding: 1rem;
-      }
-   
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+    }
+    
       
 
       /*-------------------------- MAIN COTENT -----------------------------------*/
@@ -173,64 +161,47 @@ body{
 }
 /*-------------------------------------------- MEDIA SCREEN Tablet------------------------------------------*/
 @media screen and (min-width: 500px){
-    .imageone{
-        width: 80%;
-    }
-
-    .headercontainer {
-        display: block;
-    }
-
     .logoimage {
         display:block;
         border: 0;
         margin: 0;
     }
-
     .totalnav{
         display: flex;
         width: 90%;
     }
 
+    .navbar{
+        flex-grow: 5;
+        display: flex;
+    }
 
-     .dropdown {
-        margin-top: 3rem;
+    .imageone{
+        width: 400px;
+        height: 100px;
+    }
 
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropdown-button {
-        background: grey;
-        color: white;
-        padding: 1rem;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        width: 7.3rem;
-      }
-      
-     
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        border: solid grey;
-        width: 7rem;
-
-      }
-      
-      .dropdown-content a {
-        color: black;
+    .navbar ul li {
+        display: inline;
         text-decoration: none;
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .headercontainer {
         display: block;
-        padding: 1rem;
-      }
-   
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+    }
+    
       
          /*------------------------------- MAIN CONTENT -----------------------------------*/
     .aboutcontent{
@@ -305,6 +276,7 @@ body{
         display:block;
         border: 0;
         margin: 0;
+        width: 50%;
     }
     .totalnav{
         display: flex;
@@ -312,13 +284,13 @@ body{
     }
 
     .navbar{
-        flex-grow: 5;
+        flex-grow: 2;
         display: flex;
     }
 
     .imageone{
-        width: 400px;
-        height: 100px;
+        width: 50%;
+        
     }
 
     .navbar ul li {
@@ -334,16 +306,14 @@ body{
     }
 
     li{
-        margin-left: 5rem;
+        margin-left: 2rem;
         width: 100%;
     }
 
     .headercontainer {
         display: block;
     }
-    button{
-        display:none;
-    }
+    
       
     
 

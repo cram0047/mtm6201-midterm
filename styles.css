@@ -116,7 +116,7 @@ header, main, footer{
     }
 
     .navbar{
-        flex-grow: 5;
+        flex-grow: 1;
         display: flex;
     }
 
@@ -133,7 +133,7 @@ header, main, footer{
     }
 
     .navbar {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     li{
@@ -161,6 +161,7 @@ header, main, footer{
         display:block;
         border: 0;
         margin: 0;
+        width: 50%;
     }
     .totalnav{
         display: flex;
@@ -168,13 +169,13 @@ header, main, footer{
     }
 
     .navbar{
-        flex-grow: 5;
+        flex-grow: 2;
         display: flex;
     }
 
     .imageone{
-        width: 400px;
-        height: 100px;
+        width: 50%;
+        
     }
 
     .navbar ul li {
@@ -182,6 +183,7 @@ header, main, footer{
         text-decoration: none;
         list-style: none;
         text-align: center;
+
     }
 
     .navbar {
@@ -189,7 +191,7 @@ header, main, footer{
     }
 
     li{
-        margin-left: 5rem;
+        margin-left: 2rem;
         width: 100%;
     }
 
