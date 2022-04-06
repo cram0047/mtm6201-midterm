@@ -74,12 +74,12 @@ body{
     }
 
     .imageone{
-        width: 400px;
+        width: 100px;
         height: 100px;
     }
 
     .navbar ul li {
-        display: inline;
+        display: block;
         text-decoration: none;
         list-style: none;
         text-align: center;
@@ -177,7 +177,7 @@ body{
     }
 
     .imageone{
-        width: 400px;
+        width: 200px;
         height: 100px;
     }
 
@@ -191,6 +191,7 @@ body{
 
     .navbar {
         margin-top: 1rem;
+        margin-left: 5rem;
     }
 
     li{
@@ -201,6 +202,7 @@ body{
 
     .headercontainer {
         display: block;
+        margin-right: 1rem;
     }
     
       
