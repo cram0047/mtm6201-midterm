@@ -61,11 +61,91 @@ header, main, footer{
 
 /*-------------------------------------------- MEDIA SCREEN Mobile------------------------------------------*/
 @media screen and (min-width: 380px){
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+    }
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+    .navbar{
+        flex-grow: 5;
+        display: flex;
+    }
+
+    .imageone{
+        width: 400px;
+        height: 100px;
+    }
+
+    .navbar ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .headercontainer {
+        display: block;
+    }
 }
 
 
 /*-------------------------------------------- MEDIA SCREEN  Tablet------------------------------------------*/
 @media screen and (min-width: 500px){
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+    }
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+    .navbar{
+        flex-grow: 5;
+        display: flex;
+    }
+
+    .imageone{
+        width: 400px;
+        height: 100px;
+    }
+
+    .navbar ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .headercontainer {
+        display: block;
+    }
+    
+      
         
 }
 
@@ -102,7 +182,6 @@ header, main, footer{
         text-decoration: none;
         list-style: none;
         text-align: center;
-
     }
 
     .navbar {
@@ -117,6 +196,9 @@ header, main, footer{
     .headercontainer {
         display: block;
     }
+
+
+
 
     .hero{
         position: relative;

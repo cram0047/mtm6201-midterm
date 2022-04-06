@@ -301,64 +301,49 @@ body{
 
     /*-------------------------- HEADER/NAV STUFF -----------------------------*/
     /* large media query*/
-    .imageone{
-        width: 80%;
-    }
-
-    
-    .headercontainer {
-        display: block;
-    }
-
     .logoimage {
         display:block;
         border: 0;
         margin: 0;
     }
-
     .totalnav{
         display: flex;
         width: 90%;
     }
 
-    .dropdown {
-        margin-top: 5rem;
-        position: relative;
-        display: inline-block;
-      }
+    .navbar{
+        flex-grow: 5;
+        display: flex;
+    }
 
-      .dropdown-button {
-        background: grey;
-        color: white;
-        padding: 2rem;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        width: 8.3rem;
+    .imageone{
+        width: 400px;
+        height: 100px;
+    }
 
-      }
-      
-     
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        border: solid grey;
-        text-align: center;
-        width: 8rem;
-      }
-      
-      .dropdown-content a {
-        color: black;
+    .navbar ul li {
+        display: inline;
         text-decoration: none;
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .headercontainer {
         display: block;
-        padding: 1rem;
-      }
-   
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+    }
+    button{
+        display:none;
+    }
       
     
 
