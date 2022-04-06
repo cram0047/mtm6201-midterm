@@ -116,7 +116,7 @@ header, main, footer{
     }
 
     .navbar{
-        flex-grow: 1;
+        flex-grow: 5;
         display: flex;
     }
 
@@ -126,18 +126,20 @@ header, main, footer{
     }
 
     .navbar ul li {
-        display: inline;
+        display: block;
         text-decoration: none;
         list-style: none;
         text-align: center;
+
     }
 
     .navbar {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     li{
-        margin-left: 5rem;
+        margin-left: 2rem;
+        margin-top: 1em;
         width: 100%;
     }
 

@@ -182,7 +182,7 @@ body{
     }
 
     .navbar ul li {
-        display: inline;
+        display: block;
         text-decoration: none;
         list-style: none;
         text-align: center;
@@ -190,11 +190,12 @@ body{
     }
 
     .navbar {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     li{
-        margin-left: 5rem;
+        margin-left: 2rem;
+        margin-top: 1em;
         width: 100%;
     }
 
