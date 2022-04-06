@@ -181,6 +181,7 @@ header, main, footer{
     .navbar{
         flex-grow: 2;
         display: flex;
+        
     }
 
     .imageone{
@@ -193,7 +194,11 @@ header, main, footer{
         text-decoration: none;
         list-style: none;
         text-align: center;
+    }
 
+    ul li a{
+        text-decoration: none;
+        color: #000;
     }
 
     .navbar {

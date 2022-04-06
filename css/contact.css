@@ -191,7 +191,10 @@ body{
         list-style: none;
         text-align: center;
     }
-
+    ul li a{
+        text-decoration: none;
+        color: #000;
+    }
     .navbar {
         margin-top: 3rem;
     }
