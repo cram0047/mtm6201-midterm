@@ -108,9 +108,7 @@ body{
 
       /*-------------------------- MAIN COTENT -----------------------------------*/
 
-      img{
-          width:100px;
-      }
+    
 
           .brand{
             display: grid;
@@ -123,12 +121,18 @@ body{
             grid-column: 2 / 4;
             grid-row: 1 / 2;
             text-align: center;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+
         }
     
         .brandimage{
             grid-column: 1 / 3;
             grid-row: 2 / 3;
-            background: green;
+            background: grey;
+            text-align: center;
+
         }
     
         .brandpara{
@@ -143,25 +147,26 @@ body{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows:  1fr, 2fr, 2fr;
-            margin-bottom: 4rem;
+            margin-bottom: 5rem;
         }
     
         .foundertitle{
             grid-column: 2 / 4;
             grid-row: 1 / 2;
             text-align: center;
+            margin-bottom: 1rem;
         }
     
         .founderimage{
             grid-column: 3 / 5;
             grid-row: 2 / 3;
-            background: red;
+            text-align: center;
+            
         }
     
         .founderpara{
             grid-column: 1 / 3;
             grid-row: 2 / 3;
-            background: purple;
         } 
 }
 /*-------------------------------------------- MEDIA SCREEN Tablet------------------------------------------*/
@@ -236,14 +241,12 @@ body{
     .brandimage{
         grid-column: 1 / 3;
         grid-row: 2 / 3;
-        background: green;
     }
 
     .brandpara{
         grid-column: 3 / 5;
         grid-row: 2 / 3;
         text-align: right ;
-        background: grey;
     }
 
 
@@ -263,13 +266,11 @@ body{
     .founderimage{
         grid-column: 3 / 5;
         grid-row: 2 / 3;
-        background: red;
     }
 
     .founderpara{
         grid-column: 1 / 3;
         grid-row: 2 / 3;
-        background: purple;
     } 
 }
 
@@ -347,14 +348,12 @@ body{
     .brandimage{
         grid-column: 1 / 3;
         grid-row: 2 / 3;
-        background: green;
     }
 
     .brandpara{
         grid-column: 3 / 5;
         grid-row: 2 / 3;
         text-align: right ;
-        background: grey;
     }
 
 
@@ -374,13 +373,11 @@ body{
     .founderimage{
         grid-column: 3 / 5;
         grid-row: 2 / 3;
-        background: red;
     }
 
     .founderpara{
         grid-column: 1 / 3;
         grid-row: 2 / 3;
-        background: purple;
     }
 
 
