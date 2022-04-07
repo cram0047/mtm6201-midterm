@@ -66,6 +66,11 @@ header, main, footer{
         border: 0;
         margin: 0;
     }
+    
+    .imageone{
+        width: 50%;
+        height: auto;
+    }
     .totalnav{
         display: flex;
         width: 90%;
@@ -76,10 +81,7 @@ header, main, footer{
         display: flex;
     }
 
-    .imageone{
-        width: 400px;
-        height: 100px;
-    }
+    
 
     .navbar ul li {
         display: block;
@@ -143,6 +145,37 @@ header, main, footer{
         font-size: 2rem;
         text-align: center;
     }
+
+      /*animations for images*/
+      .sports img:hover{
+        transform: scale(1.5);
+    }
+
+   .kids img:hover{
+        transform: scale(1.5);
+    }
+
+    .events img:hover{
+        transform: scale(1.5);
+    }
+
+    .sports p{
+    margin: 1rem;
+    transition: transform .2s;
+
+    }
+
+    .events p{
+        margin: 1rem;
+        transition: transform .2s;
+
+    }
+
+    .kids p{
+        margin: 1rem;
+        transition: transform .2s;
+
+    }
     
 
 }
@@ -154,7 +187,11 @@ header, main, footer{
         display:block;
         border: 0;
         margin: 0;
+    }
+    
+    .imageone{
         width: 50%;
+        height: auto;
     }
     .totalnav{
         display: flex;
@@ -167,10 +204,7 @@ header, main, footer{
         
     }
 
-    .imageone{
-        width: 50%;
-        
-    }
+    
 
     .navbar ul li {
         display: inline;
@@ -263,6 +297,37 @@ header, main, footer{
     .kids p{
         margin: 1rem;
     }
+
+      /*animations for images*/
+      .sports img:hover{
+        transform: scale(1.5);
+    }
+
+   .kids img:hover{
+        transform: scale(1.5);
+    }
+
+    .events img:hover{
+        transform: scale(1.5);
+    }
+
+    .sports p{
+    margin: 1rem;
+    transition: transform .2s;
+
+    }
+
+    .events p{
+        margin: 1rem;
+        transition: transform .2s;
+
+    }
+
+    .kids p{
+        margin: 1rem;
+        transition: transform .2s;
+
+    }
       
         
 }
@@ -279,7 +344,11 @@ header, main, footer{
         display:block;
         border: 0;
         margin: 0;
+    }
+    
+    .imageone{
         width: 50%;
+        height: auto;
     }
     .totalnav{
         display: flex;
@@ -292,10 +361,6 @@ header, main, footer{
         
     }
 
-    .imageone{
-        width: 50%;
-        
-    }
 
     .navbar ul li {
         display: inline;
