@@ -103,9 +103,7 @@ header, main, footer{
         display: block;
     }
 
-    h1{
-        text-align: center;
-    }
+   
 
     .hero{
         width: 100%;
@@ -115,15 +113,34 @@ header, main, footer{
     /*--------------- MAIN -----------------*/
     .maincontainer{
         margin: 3rem;
+    } h1{
+        font-size: 2rem;
+        text-align: center;
+        
     }
 
-    h1{
-        font-size: 5rem;
-        text-align: center;
-    }
+    @keyframes pulse {
+        from{
+          color: blue;
+        }
+        
+        to{
+          color: rgb(235, 8, 8);
+        }
+      }
+      
+      h1{
+        color: rgb(235, 8, 8);
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+   
 
     h2{
-        font-size: 5rem;
+        font-size: 2rem;
         text-align: center;
     }
     
@@ -360,16 +377,35 @@ header, main, footer{
         margin: 1rem;
     }
 
+    /*animations for images*/
+    .sports img:hover{
+        transform: scale(1.5);
+    }
+
+   .kids img:hover{
+        transform: scale(1.5);
+    }
+
+    .events img:hover{
+        transform: scale(1.5);
+    }
+
     .sports p{
     margin: 1rem;
+    transition: transform .2s;
+
     }
 
     .events p{
         margin: 1rem;
+        transition: transform .2s;
+
     }
 
     .kids p{
         margin: 1rem;
+        transition: transform .2s;
+
     }
 
 
