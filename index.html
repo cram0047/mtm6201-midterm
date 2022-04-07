@@ -38,13 +38,31 @@
     </header>
     <main> 
         <div class="maincontainer">
-            <h1>
+            <h2>
                 See our categories
-            </h1>
+            </h2>
             <div class="instore">
                 <div class="sports">
                     <div>
-                        <img src="images/sports.jpg" alt="">
+                        <picture>
+                            <source srcset="images/sports-190.jpg, 
+                                             images/sports-380.jpg 2x,
+                                             images/sports-570.jpg 3x"
+                             media="(max-width: 499px)"/>
+
+                             <source srcset="images/sports-250.jpg, 
+                                             images/sports-500.jpg 2x,
+                                             images/sports-750.jpg 3x"
+                             media="(max-width: 919px)"/> 
+
+
+                             <source srcset="images/sports-460.jpg, 
+                                            images/sports-920.jpg 2x,
+                                            images/sports-1380.jpg 3x"
+                             media="(min-width: 920px)"/> 
+
+                        </picture>
+                        <img src="images/sports-1380.jpg" alt="">
                     </div>
                     <div>
                         <h2>

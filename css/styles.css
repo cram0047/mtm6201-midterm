@@ -82,54 +82,6 @@ header, main, footer{
     }
 
     .navbar ul li {
-        display: inline;
-        text-decoration: none;
-        list-style: none;
-        text-align: center;
-    }
-
-    .navbar {
-        margin-top: 3rem;
-    }
-
-    li{
-        margin-left: 5rem;
-        width: 100%;
-    }
-
-    .headercontainer {
-        display: block;
-    }
-
-    h1{
-        text-align: center;
-    }
-}
-
-
-/*-------------------------------------------- MEDIA SCREEN  Tablet------------------------------------------*/
-@media screen and (min-width: 500px){
-    .logoimage {
-        display:block;
-        border: 0;
-        margin: 0;
-    }
-    .totalnav{
-        display: flex;
-        width: 90%;
-    }
-
-    .navbar{
-        flex-grow: 5;
-        display: flex;
-    }
-
-    .imageone{
-        width: 400px;
-        height: 100px;
-    }
-
-    .navbar ul li {
         display: block;
         text-decoration: none;
         list-style: none;
@@ -154,7 +106,146 @@ header, main, footer{
     h1{
         text-align: center;
     }
+
+    .hero{
+        width: 100%;
+    }
+
+
+    /*--------------- MAIN -----------------*/
+    .maincontainer{
+        margin: 3rem;
+    }
+
+    h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 5rem;
+        text-align: center;
+    }
     
+
+}
+
+
+/*-------------------------------------------- MEDIA SCREEN  Tablet------------------------------------------*/
+@media screen and (min-width: 500px){
+    .logoimage {
+        display:block;
+        border: 0;
+        margin: 0;
+        width: 50%;
+    }
+    .totalnav{
+        display: flex;
+        width: 90%;
+    }
+
+    .navbar{
+        flex-grow: 2;
+        display: flex;
+        
+    }
+
+    .imageone{
+        width: 50%;
+        
+    }
+
+    .navbar ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    .headercontainer {
+        display: block;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+
+    .hero{
+        position: relative;
+        text-align: center;
+    } 
+
+    .imagehero{
+        width: 100%;
+        height: auto;
+    }
+
+    
+    /*--------------- MAIN -----------------*/
+    .maincontainer{
+        margin: 3rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .instore{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2em;
+    }
+
+    .sports{
+        grid-column: 1 / 2;
+        text-align: center;
+        margin: 0.5rem;
+    }
+
+    .events{
+        grid-column: 2 / 3;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .kids{
+        grid-column: 3 / 4;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .sports p{
+    margin: 1rem;
+    }
+
+    .events p{
+        margin: 1rem;
+    }
+
+    .kids p{
+        margin: 1rem;
+    }
       
         
 }
@@ -228,19 +319,6 @@ header, main, footer{
     .imagehero{
         width: 100%;
         height: auto;
-    }
-
-    .herotext{
-        text-align: center;
-        position: absolute;
-        background:rgba(255, 255, 255, 0.6);
-        height: auto;
-        font-size: 2rem;
-        font-weight: bolder;
-        top: 50%;
-        left: 40%;
-        color: #000;
-        padding: 1rem;
     }
 
 
