@@ -113,7 +113,7 @@ body{
           .brand{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows:  1fr, 2fr, 2fr;
+            grid-template-rows:  1fr 2fr 2fr;
             margin-bottom: 2rem;
         }
     
@@ -146,7 +146,7 @@ body{
         .founder{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows:  1fr, 2fr, 2fr;
+            grid-template-rows:  1fr 2fr 2fr;
             margin-bottom: 5rem;
         }
     
@@ -228,7 +228,7 @@ body{
     .brand{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows:  1fr, 2fr, 2fr;
+        grid-template-rows:  1fr 2fr 2fr;
         margin-bottom: 2rem;
     }
 
@@ -253,7 +253,7 @@ body{
     .founder{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows:  1fr, 2fr, 2fr;
+        grid-template-rows:  1fr 2fr 2fr;
         margin-bottom: 4rem;
     }
 
@@ -335,7 +335,7 @@ body{
     .brand{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows:  1fr, 2fr, 2fr;
+        grid-template-rows:  1fr 2fr 2fr;
         margin-bottom: 2rem;
     }
 
@@ -360,7 +360,7 @@ body{
     .founder{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows:  1fr, 2fr, 2fr;
+        grid-template-rows:  1fr 2fr 2fr;
         margin-bottom: 4rem;
     }
 
