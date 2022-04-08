@@ -53,6 +53,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
+header, main, footer{
+    margin: 0 auto;
+}
+.current{
+    background: grey;
+    padding: .5em;
+
+}
 
 /*-------------------------------------------- MEDIA SCREEN MOBILE ------------------------------------------*/
 @media screen and (min-width: 380px){

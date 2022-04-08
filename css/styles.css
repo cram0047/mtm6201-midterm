@@ -58,6 +58,10 @@ body{
 header, main, footer{
     margin: 0 auto;
 }
+.current{
+    background: grey;
+    padding: .5em;
+}
 
 /*-------------------------------------------- MEDIA SCREEN Mobile------------------------------------------*/
 @media screen and (min-width: 380px){
